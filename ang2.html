@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="bear">
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script src="ang2.js"></script>
+<link rel="stylesheet" type="text/css" href="main2.css">
+	<title></title>
+</head>
+<body ng-controller="polarbearcontroller">
+
+	<h1 ng-mouseenter="addExcl()">{{message}}</h1>
+
+	<p ng-mouseenter="highlight=true" ng-class="{myclass: highlight}" ng-mouseleave="highlight=false" class="original">This is a paragraph.  It will do stuff via an angular directive.</p>
+
+	
+
+	<p>If you want to know more about polar bears, please click <a ng-show="linke" ng-click="Sure($event)" href="https://www.google.com/#q=polar+bears">here</a>.</p>
+
+
+</body>
+</html>

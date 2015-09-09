@@ -1,0 +1,15 @@
+
+
+.original {
+	color: blue;
+	font-size: 10px;
+}
+
+.myclass {
+	color: red;
+	font-size: 16px;
+}
+
+.hiding {
+	visible: hidden;
+}
